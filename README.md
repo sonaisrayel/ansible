@@ -6,4 +6,12 @@
 ```bash
    export AWS_ACCESS_KEY_ID="xxxxx"
    export AWS_SECRET_ACCESS_KEY="xxxxxxx"
-```   
+```
+
+### In aws you must have mentioned permissions
+
+- AmazonVPCReadOnlyAccess
+- AmazonEC2ReadOnlyAccess
+- ElasticLoadBalancingReadOnly
+- AmazonRDSReadOnlyAccess
+- AmazonS3ReadOnlyAccess
