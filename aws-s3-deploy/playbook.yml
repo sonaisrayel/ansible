@@ -1,0 +1,11 @@
+- name: Test s3
+  hosts: local
+  connection: local
+
+  tasks: 
+    - name: Upload to the s3
+      aws_s3:
+        bucket: wp-opt-compass-test
+        object: index.zip
+        src: /home/sonaisrayel/Projects/lambda-functions/compass-wf-optimisation-reports/index.zip
+        mode: put
