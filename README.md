@@ -5,6 +5,8 @@
 
 ```bash
    export AWS_ACCESS_KEY_ID="xxxxx"
+```
+```bash   
    export AWS_SECRET_ACCESS_KEY="xxxxxxx"
 ```
 
