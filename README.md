@@ -15,3 +15,9 @@
 - ElasticLoadBalancingReadOnly
 - AmazonRDSReadOnlyAccess
 - AmazonS3ReadOnlyAccess
+
+
+### Commands
+```bash 
+    ansible-playbook -i inventory playbook.yml
+```    
